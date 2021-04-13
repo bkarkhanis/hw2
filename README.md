@@ -1,1 +1,2 @@
 <!-- I created a website for a baseball bat company called Kellogg Baseball Bats. My secondary pages are an about me section a product offering page with the items the company is selling -->
+<!-- https://romantic-spence-eec2f9.netlify.app -->
