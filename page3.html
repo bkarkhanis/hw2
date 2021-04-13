@@ -8,17 +8,41 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-<h1>Products</h1>
-<h2>Kellogg Baseball Bats produces three of the game's finest models</h2>
-<h3>The Hanifee</h3>
-<li><img src="Hanifee.jpg" width="200" height="200" alt="Hanifee"><p>Known for its superior performance and weight distribution</p></li>
-<h3>The Dean Fran</h3>
-<li><img src="Dean_Fran.jpg" width="200" height="200" alt="Dean Fran"><p>Known for its aerodynamic design and bat speed enhancement</p></li>
-<h3>Dean C</h3>
-<li><img src="Dean_C.jpg"width="200" height="200" alt="Dean C"><p>Known for one thing, home runs</p></li>
+<h1 class="font-bold uppercase text-blue-500 text-4xl font-semibold underline text-center">Products</h1>
+<h2 class="text-3xl text-purple-500 font-bold text-center m-8">Kellogg Baseball Bats produces three of the game's finest models</h2>
+
+<div class="md:flex md:w-1/2 p-8 border-8 rounded-md">
+    <div>
+        <img src="Hanifee.jpg" width="200" height="200" alt="Hanifee">
+        <p>The Hanifee </p>
+        <p>Known for its superior performance and weight distribution</p>
+    </div>
+    <div>
+        <p>The Dean Fran</p>
+        <img src="Dean_Fran.jpg" width="200" height="200" alt="Dean Fran"><p>Known for its aerodynamic design and bat speed enhancement</p>
+    </div>
+    <div>
+        <p>Dean C</p>
+        <img src="Dean_C.jpg"width="200" height="200" alt="Dean C"><p>Known for one thing, home runs</p>
+    </div>
+</div>
+
+    <div class="m-8">
+    <h1 class="text-3xl font-bold text-center">Place Your Order</h1>
+​
+    <form netlify class="mx-auto mt-8 w-64">
+      <label class="block mt-4 font-bold" for="name">What is your email?</label>
+      <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="name" name="name">
+
+      <label class="block mt-4 font-bold" for="favorite-color">What product do you wish to order?</label>
+      <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-purple-500 focus:border-purple-500" type="text" id="favorite-color" name="favoriteColor">
+
+      <button class="block mt-4 text-white bg-purple-500 rounded px-4 py-2">Buy Now!</button>
+    </form>
+  </div>
 <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="page2.html">About Us</a></li>
+    <li class="underline text-blue text-center"><a href="index.html">Home</a></li>
+    <li class="underline text-blue text-center"><a href="page2.html">About Us</a></li>
     </ul>
 </body>
 </html>
